@@ -1,0 +1,15 @@
+---
+version: 0.2
+
+run-as: root
+
+env:
+  shell: bash
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+    commands:
+      - echo 'hello'
+      - ls -la
