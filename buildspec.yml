@@ -13,3 +13,4 @@ phases:
     commands:
       - echo 'hello'
       - ls -la
+      - ls -la /ansible
